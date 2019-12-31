@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300i,400&display=swap");
+
+* {
+  outline: none;
+}
+
+h1,
+h2,
+li,
+label,
+span,
+button,
+input {
+  font-family: Roboto;
+}
+
+input {
+  padding: 3px 5px;
+  background-color: #fff;
+  border: 1px solid #000;
+  color: #000;
+  margin-left: 5px;
+  border-radius: 2px;
+}
+
+button {
+  padding: 3px 10px;
+  background-color: #fff;
+  border: 1px solid #000;
+  color: #000;
+  margin-left: 5px;
+  border-radius: 2px;
+}
+
+.repoList {
+  display: flex;
+  flex-direction: column;
+}
